@@ -1,0 +1,54 @@
+[0.506s] Invoking command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darkknight/ros2_ws/src/my_2_pkgcpp -DCMAKE_INSTALL_PREFIX=/home/darkknight/ros2_ws/src/install/my_2_pkgcpp
+[0.766s] -- The C compiler identification is GNU 13.3.0
+[0.902s] -- The CXX compiler identification is GNU 13.3.0
+[0.940s] -- Detecting C compiler ABI info
+[1.356s] -- Detecting C compiler ABI info - done
+[1.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.381s] -- Detecting C compile features
+[1.382s] -- Detecting C compile features - done
+[1.429s] -- Detecting CXX compiler ABI info
+[1.906s] -- Detecting CXX compiler ABI info - done
+[1.919s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.921s] -- Detecting CXX compile features
+[1.922s] -- Detecting CXX compile features - done
+[1.976s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.427s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.745s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.836s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.886s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.934s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.253s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.258s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.608s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.173s] -- Configuring done (3.6s)
+[4.220s] -- Generating done (0.0s)
+[4.226s] -- Build files have been written to: /home/darkknight/ros2_ws/src/build/my_2_pkgcpp
+[4.253s] Invoked command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/darkknight/ros2_ws/src/my_2_pkgcpp -DCMAKE_INSTALL_PREFIX=/home/darkknight/ros2_ws/src/install/my_2_pkgcpp
+[4.257s] Invoking command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkknight/ros2_ws/src/build/my_2_pkgcpp -- -j6 -l6
+[4.445s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/CppNode.cpp.o[0m
+[9.039s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[9.401s] [100%] Built target cpp_node
+[9.457s] Invoked command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkknight/ros2_ws/src/build/my_2_pkgcpp -- -j6 -l6
+[9.486s] Invoking command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkknight/ros2_ws/src/build/my_2_pkgcpp
+[9.509s] -- Install configuration: ""
+[9.510s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/lib/my_2_pkgcpp/cpp_node
+[9.510s] -- Set non-toolchain portion of runtime path of "/home/darkknight/ros2_ws/src/install/my_2_pkgcpp/lib/my_2_pkgcpp/cpp_node" to ""
+[9.511s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/ament_index/resource_index/package_run_dependencies/my_2_pkgcpp
+[9.512s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/ament_index/resource_index/parent_prefix_path/my_2_pkgcpp
+[9.513s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/environment/ament_prefix_path.sh
+[9.513s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/environment/ament_prefix_path.dsv
+[9.514s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/environment/path.sh
+[9.515s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/environment/path.dsv
+[9.515s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/local_setup.bash
+[9.516s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/local_setup.sh
+[9.516s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/local_setup.zsh
+[9.517s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/local_setup.dsv
+[9.518s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/package.dsv
+[9.519s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/ament_index/resource_index/packages/my_2_pkgcpp
+[9.519s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/cmake/my_2_pkgcppConfig.cmake
+[9.520s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/cmake/my_2_pkgcppConfig-version.cmake
+[9.520s] -- Installing: /home/darkknight/ros2_ws/src/install/my_2_pkgcpp/share/my_2_pkgcpp/package.xml
+[9.547s] Invoked command in '/home/darkknight/ros2_ws/src/build/my_2_pkgcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkknight/ros2_ws/src/build/my_2_pkgcpp

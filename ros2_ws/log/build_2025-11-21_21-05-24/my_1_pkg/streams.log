@@ -1,0 +1,14 @@
+[0.537s] Invoking command in '/home/darkknight/ros2_ws/src/my_1_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/darkknight/ros2_ws/build/my_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkknight/ros2_ws/install/my_1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_1_pkg build --build-base /home/darkknight/ros2_ws/build/my_1_pkg/build install --record /home/darkknight/ros2_ws/build/my_1_pkg/install.log --single-version-externally-managed install_data
+[0.702s] running egg_info
+[0.721s] writing ../../build/my_1_pkg/my_1_pkg.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../build/my_1_pkg/my_1_pkg.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../build/my_1_pkg/my_1_pkg.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../build/my_1_pkg/my_1_pkg.egg-info/requires.txt
+[0.722s] writing top-level names to ../../build/my_1_pkg/my_1_pkg.egg-info/top_level.txt
+[0.733s] reading manifest file '../../build/my_1_pkg/my_1_pkg.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../build/my_1_pkg/my_1_pkg.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running install
+[0.739s] running install_data
+[0.739s] error: can't copy 'resource/my_1_pkg': doesn't exist or not a regular file
+[0.762s] Invoked command in '/home/darkknight/ros2_ws/src/my_1_pkg' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/darkknight/ros2_ws/build/my_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkknight/ros2_ws/install/my_1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_1_pkg build --build-base /home/darkknight/ros2_ws/build/my_1_pkg/build install --record /home/darkknight/ros2_ws/build/my_1_pkg/install.log --single-version-externally-managed install_data
