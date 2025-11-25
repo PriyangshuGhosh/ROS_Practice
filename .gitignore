@@ -1,0 +1,6 @@
+.vscode/
+*.db
+*.log
+install/
+build/
+colcon_ws/

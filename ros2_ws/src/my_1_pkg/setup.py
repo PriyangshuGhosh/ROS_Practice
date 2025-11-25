@@ -26,8 +26,10 @@ setup(
         'console_scripts': [
             "my_node=my_1_pkg.my_first_node:main",
             "bot_transmitter=my_1_pkg.robot_news_station:main",
-            "bot_receiver=my_1_pkg.robot_receiver:main"
+            "bot_receiver=my_1_pkg.robot_receiver:main",
+            "num_pub=my_1_pkg.number_publisher:main",
+            "num_counter=my_1_pkg.number_counter:main"
 
-        ],
+        ],  
     },
 )
