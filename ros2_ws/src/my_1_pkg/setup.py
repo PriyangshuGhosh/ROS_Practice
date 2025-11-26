@@ -28,7 +28,10 @@ setup(
             "bot_transmitter=my_1_pkg.robot_news_station:main",
             "bot_receiver=my_1_pkg.robot_receiver:main",
             "num_pub=my_1_pkg.number_publisher:main",
-            "num_counter=my_1_pkg.number_counter:main"
+            "num_counter=my_1_pkg.number_counter:main",
+            "server=my_1_pkg.server:main",
+            "client=my_1_pkg.client:main",
+            "reset=my_1_pkg.reset_counter:main"
 
         ],  
     },
