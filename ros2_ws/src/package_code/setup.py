@@ -1,11 +1,11 @@
 from setuptools import find_packages, setup
 
-package_name = 'my_1_pkg'
+package_name = 'package_code'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    packages=find_packages(exclude=['test','personal_interface']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='darkknight',
-    maintainer_email='darkknight@todo.todo',
+    maintainer_email='priyangshu0906@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,15 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "my_node=my_1_pkg.my_first_node:main",
-            "bot_transmitter=my_1_pkg.robot_news_station:main",
-            "bot_receiver=my_1_pkg.robot_receiver:main",
-            "num_pub=my_1_pkg.number_publisher:main",
-            "num_counter=my_1_pkg.number_counter:main",
-            "server=my_1_pkg.server:main",
-            "client=my_1_pkg.client:main",
-            "reset=my_1_pkg.reset_counter:main"
-
-        ],  
+            "battery_node=package_code.battery_node:main",
+            "led_pannel_node=package_code.led_pannel_node:main"
+        ],
     },
 )
