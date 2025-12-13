@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="package_code" exec="client" name="client1"/>
+    <node pkg="package_code" exec="client" name="client2"/>
+    <node pkg="package_code" exec="client" name="client3"/>
+    <node pkg="package_code" exec="client" name="client4"/>
+    <node pkg="package_code" exec="client" name="client5"/>
+    <node pkg="package_code" exec="server" name="server_main"/>
+    
+</launch>
